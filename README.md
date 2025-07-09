@@ -1,20 +1,61 @@
-# 📊 Power BI Sales Performance Report
+# 📊 Power BI Sales Performance Dashboard
 
-This Power BI report explores business performance from 2014 to 2017, focusing on performance and efficiency across regions, customers, and products.
+This Power BI report explores business performance from 2014 to 2017, focusing on both **performance** and **efficiency** across product lines, customer segments, and regions.
 
-🔗 [View the Interactive Report](https://app.powerbi.com/view?r=eyJrIjoiNDIwY2FhODgtMWEyMi00YTVjLTk3NDktNTlhZTI0OGYxZDlhIiwidCI6ImMzMTk4MWY0LWIwMDEtNDZmZS1iMTMxLTY4YTI0MGUxZDg3YSIsImMiOjN9)
+[![View Report](https://img.shields.io/badge/View%20Power%20BI%20Report-Online-blue?style=for-the-badge&logo=powerbi)](https://app.powerbi.com/view?r=eyJrIjoiNDIwY2FhODgtMWEyMi00YTVjLTk3NDktNTlhZTI0OGYxZDlhIiwidCI6ImMzMTk4MWY0LWIwMDEtNDZmZS1iMTMxLTY4YTI0MGUxZDg3YSIsImMiOjN9)
 
-📄 PDF version also available in this repo.
+📄 PDF version also available below:
+
+[![Open PDF](./pdf-thumbnail.png)](./Power%20BI%20Sales%20Report.pdf)
 
 ---
 
-## 🔍 Key Features
-- Toggle between **Performance** and **Efficiency** metrics
-- KPIs: Sales, Profit, Profit Margin, Discount Rate
-- Breakdown by Region, Segment, and Product
-- Influencer & Decomposition Tree insights
+## 🧮 Dimensions & Metrics Overview
 
-## 🛠 Tools
+This report is fully interactive, allowing users to switch between **Performance** and **Efficiency** views and apply dynamic filters across key business dimensions.
+
+### 🔹 Dimension Filters
+- 🌍 **Region**
+- 👥 **Customer Segment**
+- 📦 **Product Category**
+- 🔍 **Product Sub-Category**
+
+---
+
+### 📈 Performance Metrics
+Metrics focused on absolute business outcomes:
+- 🧾 Quantity Sold  
+- 💰 Sales Revenue  
+- 📊 Profit  
+- 🎯 Discount Given
+
+Use this view to track growth and sales performance by product and region.
+
+---
+
+### ⚙️ Efficiency Metrics
+Metrics reflecting effectiveness and customer-level profitability:
+- 💹 Profit Margin  
+- 📦 Sales per Customer  
+- 🛍️ Orders per Customer  
+- 🧮 Quantity per Customer  
+- 💰 Profit per Order
+
+These indicators help uncover customer behavior trends and profit efficiency.
+
+---
+
+## 🧠 Key Features
+- Toggle between **Performance** and **Efficiency** with bookmarks
+- KPI cards for quick insights
+- Interactive filters and slicers
+- Region and time-based visual comparisons
+- Decomposition Tree & Key Influencers for deeper insights
+
+---
+
+## 🛠 Tools Used
 - Power BI Desktop
 - DAX Measures
 - Bookmarks & Slicers
+- Parameterized Views
